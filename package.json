@@ -1,11 +1,27 @@
 {
   "name": "myflix-client",
   "version": "1.0.0",
-  "main": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-rc.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmhdz/myFlix-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nmhdz/myFlix-client/issues"
+  },
+  "homepage": "https://github.com/nmhdz/myFlix-client#readme"
 }
